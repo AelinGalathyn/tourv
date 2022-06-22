@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Beer_Guide_Tour.iml" filepath="$PROJECT_DIR$/.idea/modules/Beer_Guide_Tour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Beer_Guide_Tour.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

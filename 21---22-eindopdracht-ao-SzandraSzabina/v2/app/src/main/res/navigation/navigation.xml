@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.guidedbeertours.main.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_hometolist"
+            app:destination="@id/tourFragment" />
+        <action
+            android:id="@+id/action_hometofavorite"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tourFragment"
+        android:name="com.example.guidedbeertours.main.tours.TourFragment"
+        android:label="TourFragment"
+        tools:layout="@layout/fragment_tour">
+        <action
+            android:id="@+id/action_listtodetails"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.guidedbeertours.main.favorites.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoritedetails"
+            app:destination="@id/detailsFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.guidedbeertours.main.details.DetailsFragment"
+        android:label="DetailsFragment"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="tourItem"
+            app:argType="com.example.guidedbeertours.model.TourItem"/>
+    </fragment>
+
+</navigation>
